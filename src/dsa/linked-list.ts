@@ -118,11 +118,8 @@ export default class LinkedList {
 
     // For the remaining cases, we traverse the list until we reach the target index.
     let current = this.head;
-
-    // We are setting count as 1 because the current is already set and 
-    // therefore the count now starts from 1
-    let count = 1;
-    while (count <= index) {
+    let count = 0;
+    while (count < index) {
       count++;
       current = current.next;
     }
@@ -159,14 +156,14 @@ export default class LinkedList {
     // We also save the previous node of the target node because once the
     // target node is removed, our previous node will point to the next node
     // of the target node.
-    while (count <= index) {
+    while (count < index) {
       count++;
       previous = current;
       current = current.next;
     }
 
-    const deleted = current.next;
-    previous.next = deleted.next;
+     const deleted = current
+     previous.next = current.next
 
     // If the target node was the tail node, we set our previous node as the
     // new tail node.
