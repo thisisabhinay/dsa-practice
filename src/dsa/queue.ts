@@ -3,7 +3,7 @@
  * @returns An object with methods to interact with the queue.
  */
 export default function createQueue() {
-  const queue = []
+  const queue = [] // FIFO: First In First Out
 
   return {
     /**
