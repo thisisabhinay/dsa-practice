@@ -56,26 +56,26 @@ export default class Stack {
 }
 
 // Create a new stack
-const stack = new Stack();
+const stack = new Stack()
 
 // Push items onto the stack
-stack.push(1);
-stack.push(2);
-stack.push(3);
+stack.push(1)
+stack.push(2)
+stack.push(3)
 
-console.log(stack.length); // Output: 3
+console.log(stack.length) // Output: 3
 
 // Peek at the top item
-console.log(stack.peek()); // Output: 3
+console.log(stack.peek()) // Output: 3
 
 // Pop items from the stack
-console.log(stack.pop()); // Output: 3
-console.log(stack.pop()); // Output: 2
+console.log(stack.pop()) // Output: 3
+console.log(stack.pop()) // Output: 2
 
-console.log(stack.length); // Output: 1
+console.log(stack.length) // Output: 1
 
-console.log(stack.isEmpty()); // Output: false
+console.log(stack.isEmpty()) // Output: false
 
-console.log(stack.pop()); // Output: 1
+console.log(stack.pop()) // Output: 1
 
-console.log(stack.isEmpty()); // Output: true
+console.log(stack.isEmpty()) // Output: true
