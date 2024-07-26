@@ -1,1 +1,1 @@
-import "./dsa/queue"
+import "./dsa/priority-queue"

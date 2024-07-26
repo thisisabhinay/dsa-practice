@@ -2,7 +2,7 @@
  * Creates a new queue instance.
  * @returns An object with methods to interact with the queue.
  */
-function createQueue() {
+export default function createQueue() {
   const queue = []
 
   return {

@@ -6,6 +6,9 @@
     "tsc-watch": "^6.2.0",
     "typescript": "^5.5.4"
   },
+  "events": {
+    "start": "cls || clear"
+  },
   "scripts": {
     "start": "tsc-watch --onSuccess 'nodemon dist/index.js'"
   },
