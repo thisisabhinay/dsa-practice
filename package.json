@@ -1,0 +1,28 @@
+{
+  "name": "dsa-practice",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess 'nodemon dist/index.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisabhinay/dsa-practice.git"
+  },
+  "keywords": [
+    "dsa",
+    "algorithm",
+    "education"
+  ],
+  "author": "abhinay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisisabhinay/dsa-practice/issues"
+  },
+  "homepage": "https://github.com/thisisabhinay/dsa-practice#readme",
+  "description": ""
+}
