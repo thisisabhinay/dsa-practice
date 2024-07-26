@@ -1,1 +1,1 @@
-import "./dsa/stack"
+import "./dsa/linked-list"
